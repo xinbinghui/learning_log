@@ -1,0 +1,17 @@
+{% extends "learning_logs/base.html" %}
+
+{% block header %}
+  <div class='jumbotron'>
+    <h1>跟踪您的学习</h1>
+  </div>
+{% endblock header %}
+
+
+{% block content %}
+  <h2>
+    使用<a href="{% url 'users:register' %}">学习笔记</a>管理您的大脑
+  </h2>
+  <h2>
+    随时随地获取、整理、分享笔记，让灵感时刻与你同行
+  </h2>
+{% endblock content %}
